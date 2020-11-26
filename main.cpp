@@ -1,11 +1,14 @@
 #include <iostream>
 #include <string>
 
-int main(int, char**) {
-    int edad=46;
-    std::string name="Javier";
+using namespace std;
 
-    std::cout << name << " is " << edad << " years-old" << std::endl;
+int main(int, char**) {
+    int edad = 46;
+    string name = "Javier";
+
+    cout << name << " is " << edad << " years-old" << endl;
+    cout << "Closing the session" << endl;
 
     return EXIT_SUCCESS;
 }
